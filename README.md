@@ -24,6 +24,12 @@ It's really simple and build on three steps:
 - upload the artifact into the target repository using the maven-deploy-plugin
 - delete the artifact from the origin repository using the Nexus OSS REST interface
 
+## Build
+
+Build the jar file with 'mvn package' and deploy the war file into a Maven repository, 
+either your local one (use mvn install instead of package) or into a repository server using
+maven CLI or using a CI Server like Jenkins.
+
 ## Usage
 
 A very simple example:
@@ -70,6 +76,7 @@ More to come.
 - fix and align dependency versions
 - May this should be implemented as a Jenkins plugin
 - other repository servers should be supported
+- in a far future I plan to publish this @ Maven Central but I hope that this funktionality will get obsolte due to new features in Nexus OSS or other free repsotory servers (hope the guys from Apache Archiva reads this...)
 
 ## Credits
 
