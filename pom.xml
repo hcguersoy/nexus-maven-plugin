@@ -40,7 +40,7 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/hcguersoy/nexus-maven-plugin.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/hcguersoy/nexus-maven-plugin.git</developerConnection>
+		<developerConnection>scm:git:git://git@github.com/hcguersoy/nexus-maven-plugin.git</developerConnection>
 		<url>https://github.com/hcguersoy/nexus-maven-plugin</url>
 	</scm>
 
