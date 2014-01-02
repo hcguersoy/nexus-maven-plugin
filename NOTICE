@@ -4,7 +4,7 @@
 // ------------------------------------------------------------------
 
 maven-nexus-plugin Maven Mojo
-Copyright 2013 Halil-Cem Gürsoy
+Copyright 2014 Halil-Cem Gürsoy
 
 From: 'an unknown organization'
   - Plexus Cipher: encryption/decryption Component (http://spice.sonatype.org/plexus-cipher) org.sonatype.plexus:plexus-cipher:jar:1.4

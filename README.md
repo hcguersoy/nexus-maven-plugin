@@ -40,7 +40,7 @@ A very simple example:
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>de.hcguersoy</groupId>
+                        <groupId>com.github.hcguersoy</groupId>
                         <artifactId>nexus-maven-plugin</artifactId>
                         <executions>
                             <execution>
@@ -82,6 +82,8 @@ More to come.
 
 Thanks to Tim Moore and Don Brown providing the 'Mojo Executor Plugin' to the community.
 See more details on this plugin here: http://timmoore.github.io/mojo-executor/
+
+Special thanks to Reinhard Nägele contributing all the stuff for releasing this plugin at Maven Central.
 
 ## Supported Platforms
 
