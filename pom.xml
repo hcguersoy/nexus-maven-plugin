@@ -25,7 +25,7 @@
 	<groupId>com.github.hcguersoy</groupId>
 	<artifactId>nexus-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
-	<version>0.3.1-SNAPSHOT</version>
+	<version>0.3.1</version>
 	<name>maven-nexus-plugin Maven Mojo</name>
 	<url>https://github.com/hcguersoy/nexus-maven-plugin</url>
 
@@ -39,8 +39,8 @@
 	</issueManagement>
 
 	<scm>
-		<connection>scm:git:git://github.com/hcguersoy/nexus-maven-plugin.git</connection>
-		<developerConnection>scm:git:git://git@github.com/hcguersoy/nexus-maven-plugin.git</developerConnection>
+		<connection>scm:git:https://github.com/hcguersoy/nexus-maven-plugin.git</connection>
+		<developerConnection>scm:git:https://git@github.com/hcguersoy/nexus-maven-plugin.git</developerConnection>
 		<url>https://github.com/hcguersoy/nexus-maven-plugin</url>
 	</scm>
 
