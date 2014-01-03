@@ -24,11 +24,22 @@ It's really simple and build on three steps:
 - upload the artifact into the target repository using the maven-deploy-plugin
 - delete the artifact from the origin repository using the Nexus OSS REST interface
 
-## Build
+## Maven coordinates
+
+The plugin is now available in the Maven Central repositorys.
+The current Maven coordinates are:
+
+```XML
+    <groupId>com.github.hcguersoy</groupId>
+    <artifactId>nexus-maven-plugin</artifactId>
+    <version>0.3.1</version>
+```
+
+## Build from source
 
 Build the jar file with 'mvn package' and deploy the war file into a Maven repository, 
 either your local one (use mvn install instead of package) or into a repository server using
-maven CLI or using a CI Server like Jenkins.
+Maven CLI or using a CI Server like Jenkins.
 
 ## Usage
 
@@ -74,16 +85,18 @@ More to come.
 ## Next steps
 
 - fix and align dependency versions
-- May this should be implemented as a Jenkins plugin
-- other repository servers should be supported
-- in a far future I plan to publish this @ Maven Central but I hope that this funktionality will get obsolte due to new features in Nexus OSS or other free repsotory servers (hope the guys from Apache Archiva reads this...)
+- other repository servers should be supported 
+
+I'm thinking about implementing this stuff as a Jenkins plugin. IMHO this task should not be defined in a Maven POM. 
+
+An other idea is to implement an alternative "Maven Release Plugin for Continuous Delivery" using this plugin as a part of the workflow.
 
 ## Credits
 
 Thanks to Tim Moore and Don Brown providing the 'Mojo Executor Plugin' to the community.
 See more details on this plugin here: http://timmoore.github.io/mojo-executor/
 
-Special thanks to Reinhard Nägele contributing all the stuff for releasing this plugin at Maven Central.
+Special thanks to Reinhard Nägele contributing all the stuff for releasing this plugin at Maven Central and hints.
 
 ## Supported Platforms
 
