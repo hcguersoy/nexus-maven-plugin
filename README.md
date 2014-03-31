@@ -1,5 +1,13 @@
 # Sonatype Nexus OSS Maven Plugin (nexus-maven-plugin)
 
+
+## Future...
+
+I've decided to discontinue this plugin due to several reasons. One main may be that I can't encourage projects to use Maven ;-)
+But this functionality is still needed and I'll move it into a Plugin for [Jenkins](http://jenkins-ci.org). 
+
+But if you have any changes feel free to contribute them.
+
 ## Overview
 
 This Apache Maven plugin is for moving artifacts from a origin repository 
