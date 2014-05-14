@@ -1,12 +1,11 @@
 # Sonatype Nexus OSS Maven Plugin (nexus-maven-plugin)
 
 
-## Future...
+**DEPRECATED** **DISCONTINUED**
 
-I've decided to discontinue this plugin due to several reasons. One main may be that I can't encourage projects to use Maven ;-)
-But this functionality is still needed and I'll move it into a Plugin for [Jenkins](http://jenkins-ci.org). 
-
-But if you have any changes feel free to contribute them.
+I've decided to discontinue this plugin due to several reasons. One main reason may be that I can't encourage projects to use Maven ;-)
+But this functionality is still needed and it is now moved into a Plugin for [Jenkins](http://jenkins-ci.org). You can use the [artifact-promotion Plugin](https://wiki.jenkins-ci.org/display/JENKINS/ArtifactPromotionPlugin) in the same way as the Maven plugin.
+Feel free to fork the [Github Repository](https://github.com/jenkinsci/artifact-promotion-plugin) and contribute your changes.
 
 ## Overview
 
